@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Conference</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_frag_what_is">¿Qué es esta conferencia?</string>
+    <string name="start_frag_what_is_response">Esta es la conferencia anual más importante del mundo Tech. Con los mejores expositores y las tendencias que hoy están ardiendo en el mundo de la tecnología.</string>
+    <string name="start_frag_why">¿Por qué asistir?</string>
+    <string name="start_frag_why_response">Porque es un evento único en latinoamérica que reúne a los mejores profesionales del mundo de la tecnología. Porque este evento es una oportunidad de conocer
+    gente que podría ayudarte a ascender en tu carrera profesional. Porque podrías conocer a tu nuevo socio para tu nueva startup... Las razones para asistir son infinitas.</string>
+<string name="start_frag_info"></string>
 </resources>

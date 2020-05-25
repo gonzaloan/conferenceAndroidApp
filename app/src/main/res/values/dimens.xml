@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="heightLogo">100dp</dimen>
+    <dimen name="toolBarHeight">30dp</dimen>
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="heightImageViewHome">200dp</dimen>
+    <dimen name="titleSize">20sp</dimen>
+    <dimen name="subtitleSize">15sp</dimen>
+    <dimen name="marginHomeSubtle">10dp</dimen>
 </resources>

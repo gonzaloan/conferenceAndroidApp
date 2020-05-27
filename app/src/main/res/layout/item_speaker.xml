@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="@dimen/cardCornerRadius"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/heightImageViewHome"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_margin="10dp"
+            android:src="@drawable/logo_foreground" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speaker's Name"
+            android:gravity="center_horizontal"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="@dimen/titleSize"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speaker's Work"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/subtitleSize"
+
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

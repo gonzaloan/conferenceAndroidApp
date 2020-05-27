@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             >
 
@@ -65,6 +65,55 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/start_frag_what_is_response"
+                        android:textSize="@dimen/subtitleSize"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginRight="@dimen/marginHomeSubtle"
+                        android:layout_marginLeft="@dimen/marginHomeSubtle"
+                        android:layout_marginTop="@dimen/marginHomeSubtle"
+                        />
+                    <View
+                        android:layout_marginTop="@dimen/marginHomeSubtle"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorRed"
+                        />
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/heightImageViewHome"
+                        android:src="@drawable/conference_2"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorRed"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/start_frag_why"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/titleSize"
+                        android:textColor="@color/design_default_color_primary_dark"
+                        android:layout_marginRight="@dimen/marginHomeSubtle"
+                        android:layout_marginLeft="@dimen/marginHomeSubtle"
+                        android:layout_marginTop="@dimen/marginHomeSubtle"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorRed"
+                        android:layout_marginTop="@dimen/marginHomeSubtle"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/start_frag_why_response"
                         android:textSize="@dimen/subtitleSize"
                         android:textColor="@color/colorPrimary"
                         android:layout_marginRight="@dimen/marginHomeSubtle"

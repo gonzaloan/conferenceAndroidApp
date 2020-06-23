@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "661604843298",
+    "firebase_url": "https://conference-c852d.firebaseio.com",
+    "project_id": "conference-c852d",
+    "storage_bucket": "conference-c852d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661604843298:android:b5fde5de6a10aa8986af7b",
+        "android_client_info": {
+          "package_name": "tech.nullpointerexception.conf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661604843298-ea8pe2vu6voltdl7qdmc3nb0elki8d5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.nullpointerexception.conf",
+            "certificate_hash": "92d05ad47ba7d4a0fd01b67759abadae95772ab7"
+          }
+        },
+        {
+          "client_id": "661604843298-82fkehfr92aammqu153hc976v2iumd38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtE-vlfFkGnag1cOX_VNkxZr6MtUv6Y1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661604843298-82fkehfr92aammqu153hc976v2iumd38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

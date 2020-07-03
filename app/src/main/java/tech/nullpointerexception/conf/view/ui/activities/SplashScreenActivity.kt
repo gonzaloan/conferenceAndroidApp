@@ -1,4 +1,4 @@
-package tech.nullpointerexception.conf.ui.activities
+package tech.nullpointerexception.conf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

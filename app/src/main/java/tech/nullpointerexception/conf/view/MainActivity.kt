@@ -1,10 +1,11 @@
-package tech.nullpointerexception.conf
+package tech.nullpointerexception.conf.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.firestore.FirebaseFirestore
 import org.json.JSONArray
 import org.json.JSONObject
+import tech.nullpointerexception.conf.R
 import tech.nullpointerexception.conf.model.Conference
 import tech.nullpointerexception.conf.model.Speaker
 import java.util.*

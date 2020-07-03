@@ -13,6 +13,7 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/tvItemSpeakerImage"
             android:layout_width="match_parent"
             android:layout_height="@dimen/heightImageViewHome"
             android:adjustViewBounds="true"
@@ -22,6 +23,7 @@
 
 
         <TextView
+            android:id="@+id/tvItemSpeakerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Speaker's Name"
@@ -32,6 +34,7 @@
 
 
         <TextView
+            android:id="@+id/tvItemSpeakerWork"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Speaker's Work"
